@@ -1,6 +1,7 @@
 let express = require('express'),
     pug     = require('pug'),
-    path    = require('path');
+    path    = require('path'),
+    config  = require('../config');
 
 var app = express();
 
@@ -22,7 +23,7 @@ app.get('/:menu', function(req, res) {
     let menu = req.params['menu'];
     res.render('menu', {
         title: `Express Burgers - Menu`,
-        menu: menu
+        menu: config.item_menu[menu]
     });
 });
 

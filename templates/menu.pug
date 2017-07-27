@@ -1,4 +1,8 @@
 extends layout
 
 block content
-    p Hello, #{menu}!
+  article
+    each item in menu
+      section(class="menu-item")
+        h4 #{item.name}
+        p(class="item-desc") #{item.description}
