@@ -1,29 +1,29 @@
 {
-  "name": "express-burgers",
-  "version": "1.0.0",
-  "description": "A burger place backend.",
-  "main": "src/index.js",
-  "scripts": {
-    "watch": "nodemon ."
-  },
-  "dependencies": {
-    "express": "^4.15.3",
-    "nodemon": "^1.11.0",
-    "pug": "^2.0.0-rc.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/blslade-neumont/express-burgers.git"
-  },
-  "keywords": [
-    "Express",
-    "burgers",
-    "Neumont"
-  ],
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/blslade-neumont/express-burgers/issues"
-  },
-  "homepage": "https://github.com/blslade-neumont/express-burgers#readme"
+    "name": "express-burgers",
+    "version": "1.0.0",
+    "description": "A burger place backend.",
+    "main": "src/index.js",
+    "scripts": {
+        "watch": "nodemon ."
+    },
+    "dependencies": {
+        "express": "^4.15.3",
+        "nodemon": "^1.11.0",
+        "pug": "^2.0.0-rc.2"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/blslade-neumont/express-burgers.git"
+    },
+    "keywords": [
+        "Express",
+        "burgers",
+        "Neumont"
+    ],
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/blslade-neumont/express-burgers/issues"
+    },
+    "homepage": "https://github.com/blslade-neumont/express-burgers#readme"
 }
