@@ -1,0 +1,14 @@
+
+nav li{
+    display: inline-flex;    
+}
+nav a{
+    padding: 10px;
+    margin: 2px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background: #ddeeff;
+    border-bottom: 2px solid #a774b3;
+}
