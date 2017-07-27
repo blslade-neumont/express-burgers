@@ -1,0 +1,20 @@
+{
+    "nav_menu": [
+        ["Home", "/"],
+        ["Burgers", "burgers"],
+        ["Sides", "sides"],
+        ["Desserts", "desserts"],
+        ["Directions", "directions"]
+    ],
+    "item_menu": {
+        "burgers": [
+            ["Semi-American Burger", "A 33% American burger."]
+        ],
+        "sides": [
+            ["Original Fries", "A relative mountain of our fries seasoned to perfection in our originial seasoning."]
+        ],
+        "desserts": [
+            ["The Choco", "It looks like a taco. It looks delicious. But in reality it's only one of those."]
+        ]
+    }
+}
