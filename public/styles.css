@@ -37,3 +37,15 @@ nav a:hover{
 .info {
     margin: 2em;
 }
+
+.menu-item {
+    width: calc(33.333% - 12px);
+    float: left;
+    padding: 8px;
+}
+.row-separator {
+    clear: both;
+}
+.menu-item-img {
+    max-width: 100%;
+}
