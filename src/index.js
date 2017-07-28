@@ -21,9 +21,14 @@ app.get('/directions', function(req, res) {
 });
 app.get('/:menu', function(req, res) {
     let menu = req.params['menu'];
+    let itemMenu = config.item_menu[menu];
+    if (!itemMenu) {
+        res.status(404).send('Not found');
+        return;
+    }
     res.render('menu', {
         title: `Express Burgers - Menu`,
-        menu: config.item_menu[menu]
+        menu: itemMenu
     });
 });
 
