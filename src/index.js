@@ -11,12 +11,16 @@ app.use(express.static(path.join(__dirname, '../public')));
 
 app.get('/', function(req, res) {
     res.render('index', {
-        title: 'Express Burgers'
+        title: 'Express Burgers',
+        header: 'Express Burgers',
+        navMenu: config.nav_menu
     });
 });
 app.get('/directions', function(req, res) {
     res.render('directions', {
-        title: 'Express Burgers - Directions'
+        title: 'Express Burgers - Directions',
+        header: 'Directions',
+        navMenu: config.nav_menu
     });
 });
 app.get('/:menu', function(req, res) {
@@ -28,6 +32,7 @@ app.get('/:menu', function(req, res) {
     }
     res.render('menu', {
         title: `Express Burgers - Menu`,
+        navMenu: config.nav_menu,
         menu: itemMenu
     });
 });

@@ -1,10 +1,10 @@
 {
     "nav_menu": [
-        ["Home", "/"],
-        ["Burgers", "burgers"],
-        ["Sides", "sides"],
-        ["Desserts", "desserts"],
-        ["Directions", "directions"]
+        ["Home", "/", "fa-home"],
+        ["Burgers", "burgers", "fa-cutlery"],
+        ["Sides", "side-dishes", "fa-coffee"],
+        ["Desserts", "desserts", "fa-birthday-cake"],
+        ["Directions", "directions", "fa-car"]
     ],
     "font-awesome-classes": {
         "home": "fa-home",
