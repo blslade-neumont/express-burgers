@@ -6,9 +6,16 @@ nav a{
     padding: 10px;
     margin: 2px;
     text-decoration: none;
+    border: 2px solid transparent;
+    color: black;    
 }
 
 nav a:hover{
     background: #ddeeff;
     border-bottom: 2px solid #a774b3;
+}
+
+
+body{
+    margin-top: 10px;
 }
