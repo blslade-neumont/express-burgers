@@ -1,6 +1,10 @@
 
+* {
+    box-sizing: border-box;
+}
+
 nav li{
-    display: inline-flex;    
+    display: inline-flex;
 }
 nav a{
     padding: 10px;
@@ -15,7 +19,6 @@ nav a:hover{
     border-bottom: 2px solid #a774b3;
 }
 
-
-body{
-    margin-top: 10px;
+.mr-2 {
+    margin-right: .5em;
 }
