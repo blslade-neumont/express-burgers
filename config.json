@@ -14,86 +14,95 @@
         "directions": "fa-car"
     },
     "item_menu": {
-        "burgers": [
-            {
-                "name": "Semi-American Burger", 
-                "description": "A 50% American burger. A 100% angus beef burger with Swiss cheese.",
-                "image": ""
-            },
-            {
-                "name": "The Quick Fill",
-                "description": "Prized for being ready in under 3 minutes, this burger is made from scratch on order. Comes with lettuce, cheddar cheese, and ketchup.",
-                "image": ""
-            },
-            {
-                "name": "The Tall Stack",
-                "description": "Three 100% angus beef patties stacked on top of each other in the middle of a buttered bun. Comes with cheddar cheese, ketchup, lettuce, and dill pickle wedge",
-                "image": ""
-            },
-            {
-                "name": "The Grand Order",
-                "description": "A two tiered burger with everything on it.",
-                "image": ""
-            },
-            {
-                "name": "The Long Patty",
-                "description": "A 100% angus beef burger prepared in a oblong tube rather than a patty. You may be tempted to call it a hot dog.",
-                "image": ""
-            }
-        ],
-        "side-dishes": [
-            {
-                "name": "Original Fries",
-                "description": "A relative mountain of our fries seasoned to perfection in our originial seasoning.",
-                "image": ""
-            },
-            {
-                "name": "Round Fries",
-                "description": "A basket of our homemade onion rings seasoned to perfection in our original seasiong.",
-                "image": ""
-            },
-            {
-                "name": "Nuggets", 
-                "description": "Why should nuggest be served as the main course when you can serve them on the side with everything?!",
-                "image": ""
-            },
-            {
-                "name": "The Garden",
-                "description": "A freshly prepared salad with lettuce, tomato, and spinich.",
-                "image": ""
-            },
-            {
-                "name": "Green Fries",
-                "description": "Our newest creation. Lightly seasoned kale chips perfect for the health focused.",
-                "image": ""
-            }
-        ],
-        "desserts": [
-            {
-                "name": "The Choco",
-                "description": "It looks like a taco. It looks delicious. It's a dessert taco, yum.",
-                "image": ""
-            },
-            {
-                "name": "The Perfect Malt",
-                "description": "Our self-awarded award winning malt shake. Comes in any combination of chocolate, strawberry, or vanilla flavors.",
-                "image": ""
-            },
-            {
-                "name": "The Original Cone",
-                "description": "Our original ice cream cone. To this day it still costs only 75¢.",
-                "image": ""
-            },
-            {
-                "name": "The Snowstorm",
-                "description": "Our original ice cream shake creation. Served to you up-side-down.",
-                "font-awesome": ""
-            },
-            {
-                "name": "The Fudge",
-                "description": "The original fudge recipe developed by our founders' grandmothers years ago.",
-                "image": ""
-            }
-        ]
+        "burgers": {
+            "header": "Burgers",
+            "items": [
+                {
+                    "name": "Semi-American Burger", 
+                    "description": "A 50% American burger. A 100% angus beef burger with Swiss cheese.",
+                    "image": ""
+                },
+                {
+                    "name": "The Quick Fill",
+                    "description": "Prized for being ready in under 3 minutes, this burger is made from scratch on order. Comes with lettuce, cheddar cheese, and ketchup.",
+                    "image": ""
+                },
+                {
+                    "name": "The Tall Stack",
+                    "description": "Three 100% angus beef patties stacked on top of each other in the middle of a buttered bun. Comes with cheddar cheese, ketchup, lettuce, and dill pickle wedge",
+                    "image": ""
+                },
+                {
+                    "name": "The Grand Order",
+                    "description": "A two tiered burger with everything on it.",
+                    "image": ""
+                },
+                {
+                    "name": "The Long Patty",
+                    "description": "A 100% angus beef burger prepared in a oblong tube rather than a patty. You may be tempted to call it a hot dog.",
+                    "image": ""
+                }
+            ]
+        },
+        "side-dishes": {
+            "header": "Sides",
+            "items": [
+                {
+                    "name": "Original Fries",
+                    "description": "A relative mountain of our fries seasoned to perfection in our originial seasoning.",
+                    "image": ""
+                },
+                {
+                    "name": "Round Fries",
+                    "description": "A basket of our homemade onion rings seasoned to perfection in our original seasiong.",
+                    "image": ""
+                },
+                {
+                    "name": "Nuggets", 
+                    "description": "Why should nuggest be served as the main course when you can serve them on the side with everything?!",
+                    "image": ""
+                },
+                {
+                    "name": "The Garden",
+                    "description": "A freshly prepared salad with lettuce, tomato, and spinich.",
+                    "image": ""
+                },
+                {
+                    "name": "Green Fries",
+                    "description": "Our newest creation. Lightly seasoned kale chips perfect for the health focused.",
+                    "image": ""
+                }
+            ]
+        },
+        "desserts": {
+            "header": "Desserts",
+            "items": [
+                {
+                    "name": "The Choco",
+                    "description": "It looks like a taco. It looks delicious. It's a dessert taco, yum.",
+                    "image": ""
+                },
+                {
+                    "name": "The Perfect Malt",
+                    "description": "Our self-awarded award winning malt shake. Comes in any combination of chocolate, strawberry, or vanilla flavors.",
+                    "image": ""
+                },
+                {
+                    "name": "The Original Cone",
+                    "description": "Our original ice cream cone. To this day it still costs only 75¢.",
+                    "image": ""
+                },
+                {
+                    "name": "The Snowstorm",
+                    "description": "Our original ice cream shake creation. Served to you up-side-down.",
+                    "font-awesome": ""
+                },
+                {
+                    "name": "The Fudge",
+                    "description": "The original fudge recipe developed by our founders' grandmothers years ago.",
+                    "image": ""
+                }
+            ]
+        }
     }
 }

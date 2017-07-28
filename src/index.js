@@ -32,8 +32,9 @@ app.get('/:menu', function(req, res) {
     }
     res.render('menu', {
         title: `Express Burgers - Menu`,
+        header: itemMenu.header,
         navMenu: config.nav_menu,
-        menu: itemMenu
+        menu: itemMenu.items
     });
 });
 
