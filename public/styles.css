@@ -17,11 +17,13 @@ nav a {
     text-decoration: none;
     border: 2px solid transparent;
     color: black;    
+    transition: 2s;    
 }
 
 nav a:hover{
     background: #ddeeff;
     border-bottom: 2px solid #a774b3;
+    transition: 1s;
 }
 
 .mr-2 {
