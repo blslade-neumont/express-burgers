@@ -36,7 +36,7 @@ nav a:hover{
     width: 100%;
 }
 .info {
-    margin: 2em;
+    margin: 2em 0;
 }
 
 .menu-item {
@@ -50,9 +50,14 @@ nav a:hover{
 .menu-item-img {
     max-width: 100%;
     max-height: 125px;
-    transition: max-height 2s;
+    transition: max-height .5s;
+    display: block;
+    margin: 0 auto;
+    clear: both;
 }
-
-.menu-item-img:hover{
-    max-height: 250px;    
+.menu-item-img-wrapper {
+    height: 250px;
+}
+.menu-item:hover .menu-item-img {
+    max-height: 250px;
 }
