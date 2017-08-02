@@ -76,7 +76,7 @@ footer {
 }
 
 .menu-item {
-    width: calc(33.333% - 12px);
+    width: calc(33.333% - 20px);
     margin: 5px;
     float: left;
     padding: 8px;
@@ -99,10 +99,13 @@ footer {
     max-height: 250px;
 }
 
-.menu-item:hover{
+.menu-item {
+    border: 2px solid transparent;
+    transition: .5s;
+}
+.menu-item:hover {
     box-shadow: 10px 10px 5px #888888;
-    border: 2px double black;
-    transition: .5s;    
+    border: 2px solid black;
 }
 
 .directions-pane {
