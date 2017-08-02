@@ -1,6 +1,5 @@
 
 
-
 * {
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
@@ -66,8 +65,11 @@ footer {
 
 .container {
     max-width: 1000px;
-    margin: 80px auto;
-    margin-top: 210px;
+    margin: 0 auto;
+    margin-top: 168px;
+    padding: 80px;
+    min-height: calc(100vh - 168px);
+    background: white;
 }
 .content-block, nav {
     width: 100%;
