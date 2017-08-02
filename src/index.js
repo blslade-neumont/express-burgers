@@ -35,7 +35,6 @@ app.get('/:menu', function(req, res) {
         res.status(404).send('Not found');
         return;
     }
-    console.log(itemMenu.menu_description);
     res.render('menu', {
         title: `Express Burgers - Menu`,
         header: itemMenu.header,
