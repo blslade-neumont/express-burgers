@@ -13,7 +13,10 @@ app.get('/', function(req, res) {
     res.render('index', {
         title: 'Express Burgers',
         header: 'Express Burgers',
-        navMenu: config.nav_menu
+        navMenu: config.nav_menu,
+        randBurger: config.item_menu.burgers.items[Math.floor(Math.random() * config.item_menu.burgers.items.length)],
+        randSide: config.item_menu['side-dishes'].items[Math.floor(Math.random() * config.item_menu['side-dishes'].items.length)],
+        randDessert: config.item_menu.desserts.items[Math.floor(Math.random() * config.item_menu.desserts.items.length)]
     });
 });
 app.get('/directions', function(req, res) {
