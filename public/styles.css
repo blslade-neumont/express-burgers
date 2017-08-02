@@ -23,7 +23,7 @@ nav a {
 nav a:hover{
     background: #ddeeff;
     border-bottom: 2px solid #a774b3;
-    transition: 1s;
+    transition: .5s;
 }
 
 .mr-2 {
@@ -43,6 +43,7 @@ nav a:hover{
 
 .menu-item {
     width: calc(33.333% - 12px);
+    margin: 5px;
     float: left;
     padding: 8px;
 }
@@ -62,4 +63,10 @@ nav a:hover{
 }
 .menu-item:hover .menu-item-img {
     max-height: 250px;
+}
+
+.menu-item:hover{
+    box-shadow: 10px 10px 5px #888888;
+    border: 2px double black;
+    transition: .5s;    
 }
