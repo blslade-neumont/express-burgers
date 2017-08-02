@@ -2,7 +2,11 @@ extends layout
 
 block content
   article
-    each item in menu
+    each item, idx in menu
       section(class="menu-item")
         h4 #{item.name}
         p(class="item-desc") #{item.description}
+        div(class='menu-item-img-wrapper')
+          img(src=item.image || '//placehold.it/400x400', class='menu-item-img')
+      if idx % 3 === 2
+        div(class='row-separator')

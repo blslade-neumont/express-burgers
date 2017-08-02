@@ -1,14 +1,71 @@
 
-nav li{
-    display: inline-flex;    
+
+
+* {
+    box-sizing: border-box;
 }
-nav a{
+body {
+    margin: 0;
+}
+
+nav li {
+        display: inline-flex;    
+}
+nav a {
     padding: 10px;
     margin: 2px;
     text-decoration: none;
+    border: 2px solid transparent;
+    color: black;    
 }
 
 nav a:hover{
     background: #ddeeff;
     border-bottom: 2px solid #a774b3;
+}
+
+.home-content {
+    font-size: 1.05em;
+}
+
+footer {
+    clear: both;
+}
+
+.mr-2 {
+    margin-right: .5em;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 80px auto;
+}
+.content-block, nav {
+    width: 100%;
+}
+.info {
+    margin: 2em 0;
+}
+
+.menu-item {
+    width: calc(33.333% - 12px);
+    float: left;
+    padding: 8px;
+}
+.row-separator {
+    clear: both;
+}
+.menu-item-img {
+    max-width: 100%;
+    max-height: 125px;
+    transition: max-height .5s;
+    display: block;
+    margin: 0 auto;
+    clear: both;
+}
+.menu-item-img-wrapper {
+    height: 250px;
+}
+.menu-item:hover .menu-item-img {
+    max-height: 250px;
 }

@@ -11,19 +11,33 @@ app.use(express.static(path.join(__dirname, '../public')));
 
 app.get('/', function(req, res) {
     res.render('index', {
-        title: 'Express Burgers'
+        title: 'Express Burgers',
+        header: 'Express Burgers',
+        navMenu: config.nav_menu,
+        randBurger: config.item_menu.burgers.items[Math.floor(Math.random() * config.item_menu.burgers.items.length)],
+        randSide: config.item_menu['side-dishes'].items[Math.floor(Math.random() * config.item_menu['side-dishes'].items.length)],
+        randDessert: config.item_menu.desserts.items[Math.floor(Math.random() * config.item_menu.desserts.items.length)]
     });
 });
 app.get('/directions', function(req, res) {
     res.render('directions', {
-        title: 'Express Burgers - Directions'
+        title: 'Express Burgers - Directions',
+        header: 'Directions',
+        navMenu: config.nav_menu
     });
 });
 app.get('/:menu', function(req, res) {
     let menu = req.params['menu'];
+    let itemMenu = config.item_menu[menu];
+    if (!itemMenu) {
+        res.status(404).send('Not found');
+        return;
+    }
     res.render('menu', {
         title: `Express Burgers - Menu`,
-        menu: config.item_menu[menu]
+        header: itemMenu.header,
+        navMenu: config.nav_menu,
+        menu: itemMenu.items
     });
 });
 

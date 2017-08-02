@@ -1,22 +1,8 @@
 nav
     ul
-        li
-            a(href='/')
-                i(class='fa fa-home mr-2')
-                span Home
-        li
-            a(href='/burgers')
-                i(class='fa fa-cutlery mr-2')
-                span Burgers
-        li
-            a(href='/side-dishes')
-                i(class='fa fa-coffee mr-2')
-                span Side Dishes
-        li
-            a(href='/desserts')
-                i(class='fa fa-birthday-cake mr-2')
-                span Desserts
-        li
-            a(href='/directions')
-                i(class='fa fa-car mr-2')
-                span Directions
+        each link in navMenu
+            li
+                a(href=link[1])
+                    if link[2]
+                        i(class='fa mr-2 ' + link[2])
+                    span=link[0]
