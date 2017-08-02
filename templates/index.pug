@@ -6,8 +6,11 @@ block content
         p(class='home-content') We are fifth generation restaraunt owners in the heart of downtown Salt Lake City. We've been making burgers, sides, and desserts since for over 40 years. In 1975 we were founded by two friends who had a passion for good that was availble quickly and easily. Motivated to bring delicious and affordable fast food to the masses, they opened a small shop in downtown and started chasing their dream. It didn't take long before the business boomed and they became one of the more popular restaraunts in the city. However, as the years past the restaruant slipped into obscurity as other fast food chains moved into the area. Today, we are back to our roots with a single location in the heart of downtown Salt Lake City with the same dedication, but our passion for good fast food remains unchanged.
         div
             div(id='random-burger', class='menu-item menu-item-img-wrapper')
-                img(src=randBurger.image, class='menu-item-img')
+                a(href='/burgers')
+                    img(src=randBurger.image, class='menu-item-img')
             div(id='random-side', class='menu-item menu-item-img-wrapper')
-                img(src=randSide.image, class='menu-item-img')
+                a(href='/side-dishes')
+                    img(src=randSide.image, class='menu-item-img')
             div(id='random-side', class='menu-item menu-item-img-wrapper')
-                img(src=randDessert.image, class='menu-item-img')
+                a(href='/desserts')
+                    img(src=randDessert.image, class='menu-item-img')
