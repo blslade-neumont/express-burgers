@@ -13,6 +13,7 @@ app.get('/', function(req, res) {
     res.render('index', {
         title: 'Express Burgers',
         header: 'Express Burgers',
+        location: '/',
         navMenu: config.nav_menu,
         randBurger: config.item_menu.burgers.items[Math.floor(Math.random() * config.item_menu.burgers.items.length)],
         randSide: config.item_menu['side-dishes'].items[Math.floor(Math.random() * config.item_menu['side-dishes'].items.length)],
@@ -23,6 +24,7 @@ app.get('/directions', function(req, res) {
     res.render('directions', {
         title: 'Express Burgers - Directions',
         header: 'Directions',
+        location: '/directions',
         navMenu: config.nav_menu
     });
 });
@@ -33,10 +35,13 @@ app.get('/:menu', function(req, res) {
         res.status(404).send('Not found');
         return;
     }
+    console.log(itemMenu.menu_description);
     res.render('menu', {
         title: `Express Burgers - Menu`,
         header: itemMenu.header,
+        location: `/${menu}`,
         navMenu: config.nav_menu,
+        menuDescription: itemMenu.menu_description,
         menu: itemMenu.items
     });
 });
