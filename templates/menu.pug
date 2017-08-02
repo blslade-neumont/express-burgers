@@ -2,6 +2,7 @@ extends layout
 
 block content
   article
+    p=menuDescription
     each item, idx in menu
       section(class="menu-item")
         h4 #{item.name}

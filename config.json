@@ -16,6 +16,7 @@
     "item_menu": {
         "burgers": {
             "header": "Burgers",
+            "menu_description": "From plain single teir burgers to towering skyscrapers of meat we've got everything you could want in a simple collection of choices.",
             "items": [            
                 {
                 "name": "Semi-American Burger", 
@@ -47,6 +48,7 @@
         },
         "side-dishes": {
             "header": "Sides",
+            "menu_description": "Whether you're looking for a classic side or something new and original, we've got you covered.",
             "items": [
                 {
                     "name": "Original Fries",
@@ -77,6 +79,7 @@
         },
         "desserts": {
             "header": "Desserts",
+            "menu_description": "From fudge to chocolate tacos we've got something that will satisfy even the strongest sweet tooth.",
             "items": [
                 {
                     "name": "The Choco",
