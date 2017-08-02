@@ -7,6 +7,7 @@
 }
 body {
     margin: 0;
+    background: #F6E497
 }
 
 nav {
@@ -15,7 +16,7 @@ nav {
     left: 0;
     right: 0;
     top: 0;
-    background: red;
+    background: #B9121B;
     margin-bottom: 40px;
 }
 nav > ul {
@@ -49,7 +50,7 @@ nav li:hover > a {
     font-size: 1.05em;
 }
 
-nav a:hover{
+    nav a:hover{
     background: #ddeeff;
     border-bottom: 2px solid #a774b3;
     transition: .5s;
@@ -103,4 +104,5 @@ footer {
     box-shadow: 10px 10px 5px #888888;
     border: 2px double black;
     transition: .5s;    
+
 }
