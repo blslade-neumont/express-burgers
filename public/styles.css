@@ -104,3 +104,7 @@ footer {
     border: 2px double black;
     transition: .5s;    
 }
+
+.directions-pane {
+    min-height: 520px;
+}
