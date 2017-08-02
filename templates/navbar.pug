@@ -1,7 +1,7 @@
 nav
     ul
         each link in navMenu
-            li
+            li(class=location.endsWith(link[1]) ? 'active' : '')
                 a(href=link[1])
                     if link[2]
                         i(class='fa mr-2 ' + link[2])
