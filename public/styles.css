@@ -33,12 +33,12 @@ nav a {
     margin-bottom: 0;
     text-decoration: none;
     border: 2px solid transparent;
-    color: white;
+    color: #FCFAE1;
     transition: .5s;
 }
 
 nav li:hover > a, nav li.active > a {
-    background: white;
+    background: #FCFAE1;
     color: black;
     border-bottom: 2px solid transparent;
     border-top-left-radius: 3px;
@@ -69,7 +69,7 @@ footer {
     margin-top: 168px;
     padding: 80px;
     min-height: calc(100vh - 168px);
-    background: white;
+    background: #FCFAE1;
 }
 .content-block, nav {
     width: 100%;
